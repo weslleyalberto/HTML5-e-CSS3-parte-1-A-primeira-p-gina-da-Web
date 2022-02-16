@@ -24,24 +24,22 @@
         <main>
             <form>
                 <label for="nomesobrenome">Nome e sobrenome:</label>
-                <input type="text" id="nomesobrenome">
+                <input type="text" id="nomesobrenome" class="input-padrao">
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input type="text" id="email" class="input-padrao">
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input type="text" id="telefone" class="input-padrao">
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem"></textarea>
-                <input type="submit" value="Enviar Formulário">
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+               
             <div>
                 <p>Como prefere nosso contato?</p>
-                <label for="radio-email" >Email</label>
-                <input type="radio" value="email" id="radio-email" name="contato">
-                <label for="radio-telefone">Telefone</label>
-                <input type="radio" value="telefone" id="radio-telefone" name="contato">
-                <label for="radio-whatsapp">Whatsaap</label>
-                <input type="radio" value="whatsaap" id="radio-whatsapp" name="contato">
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato"> Email</label>             
+                <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato"> Telefone</label>             
+                <label for="radio-whatsapp"> <input type="radio" value="whatsaap" id="radio-whatsapp" name="contato"> Whatsaap</label>             
             </div>
-                <label><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+                <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+                <input type="submit" value="Enviar Formulário">
             </form>
         </main>
         <footer>
