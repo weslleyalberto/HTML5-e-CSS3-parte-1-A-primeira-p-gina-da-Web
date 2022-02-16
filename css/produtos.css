@@ -32,6 +32,16 @@ nav a:hover {
     margin: 0 auto;
     padding: 50px 0;
 }
+.produtos li:hover {
+    border-color: #C78C19;
+   
+}
+.produtos li:active{
+    border-color: #088C19;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
 .produtos li {
     display: inline-block;
     text-align: center;
